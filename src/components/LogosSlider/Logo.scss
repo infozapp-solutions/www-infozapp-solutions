@@ -1,0 +1,27 @@
+.slick-dots li button:before {
+    content: "";
+}
+
+.slick-dots li button {
+    border: 1px solid red;
+    height: 0.8rem;
+    width: 0.8rem;
+    padding: 0.1rem;
+    border-radius: 50px;
+    transition: all 500ms ease-in-out;
+    margin-top: 1rem;
+}
+
+.slick-dots li.slick-active button {
+    background: red;
+}
+
+.slick-dots li {
+    margin: 0;
+}
+
+.slick-list,
+.slick-slider,
+.slick-track {
+    padding-bottom: 0rem;
+}

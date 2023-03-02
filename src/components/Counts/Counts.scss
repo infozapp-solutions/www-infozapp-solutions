@@ -1,0 +1,9 @@
+.count{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.box{
+    box-shadow: 0px 0px 10px 1px rgb(224, 224, 224);
+}

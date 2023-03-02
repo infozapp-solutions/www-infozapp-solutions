@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  @apply m-0 p-0 box-border scroll-smooth;
+}
+
+.slick-slide div {
+  outline: none;
+}
+
+// generaL sizes 
+.size {
+  @apply w-[90%] max-w-screen-xl lg:w-[90%] xl:w-[90%] mx-auto;
+}
+
+// clip path bg 
+.clipBg {
+  padding: 4rem 0;
+  margin-bottom: 2rem;
+  position: relative;
+
+  &:before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #1b1b1b;
+    transform: skewY(-3deg);
+    scrollbar-width: 0;
+    z-index: -1;
+   }
+}
+
+// h1 headings 
+.heading{
+  position: relative;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2.3rem;
+
+  &::after{
+    content: "";
+    position: absolute;
+    width: 3rem;
+    height: 3px;
+    right: 0;
+    left: 0;
+    background-color: red;
+    bottom: 0;
+    margin: 0 auto;
+  }
+}
+
+#transition{
+  transition: all 5ms ease-in-out;
+}

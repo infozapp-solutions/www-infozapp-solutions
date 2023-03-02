@@ -1,0 +1,44 @@
+#nav {
+    @apply font-semibold hover:text-red-400
+}
+
+#shadow {
+    box-shadow: 0px 0px 10px 1px rgba(67, 67, 67, 0.228);
+}
+
+#dropDown {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+
+    &:hover {
+        color: red;
+    }
+}
+
+.dropOne {
+    &:hover>.dropOneSubmenu {
+        display: flex;
+        animation: animation 300ms ease-in-out;
+    }
+}
+
+.drop2 {
+    &:hover>.dropMenu2 {
+        display: flex;
+        animation: animation 300ms ease-in-out;
+    }
+}
+
+@keyframes animation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
