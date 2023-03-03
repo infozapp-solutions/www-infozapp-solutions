@@ -9,6 +9,7 @@ module.exports = {
 
       colors: {
         card: "#252525",
+        footer: "#1b1b1b",
       },
     },
   },

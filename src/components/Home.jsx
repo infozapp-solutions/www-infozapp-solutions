@@ -8,6 +8,10 @@ import Service from "./Services/Service";
 import Testimonials from "./Testimonials/Testimonials";
 import Pricing from "./Pricing/Pricing";
 import Questions from "./Questions/Questions";
+import Team from "./Team/Team";
+import Contact from "./Contact/Contact";
+import Footer from "./Footer/Footer";
+import Copyright from "./Copyright/Copyright";
 
 const Home = () => {
   return (
@@ -21,6 +25,10 @@ const Home = () => {
       <Testimonials />
       <Pricing />
       <Questions />
+      <Team />
+      <Contact />
+      <Footer />
+      <Copyright />
     </div>
   );
 };
