@@ -5,8 +5,8 @@ import Banner from "./Banner/Banner";
 import Information from "./Information/Information";
 import Logo from "./LogosSlider/Logo";
 import Service from "./Services/Service";
-import Testimonials from "./Testimonials/Testimonials";
-import Pricing from "./Pricing/Pricing";
+// import Testimonials from "./Testimonials/Testimonials";
+// import Pricing from "./Pricing/Pricing";
 import Questions from "./Questions/Questions";
 import Team from "./Team/Team";
 import Contact from "./Contact/Contact";
@@ -22,8 +22,8 @@ const Home = () => {
       <Counts />
       <Information />
       <Service />
-      <Testimonials />
-      <Pricing />
+      {/* <Testimonials /> */}
+      {/* <Pricing /> */}
       <Questions />
       <Team />
       <Contact />

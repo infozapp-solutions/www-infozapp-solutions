@@ -9,22 +9,22 @@ const Counts = () => {
   const counts = [
     {
       title: "happy clients",
-      total: 233,
+      total: 3,
       icon: <EmojiEmotionsOutlinedIcon sx={{fontSize : "1.8rem"}}/>,
     },
     {
       title: "projects",
-      total: 540,
+      total: 6,
       icon: <ReceiptLongOutlinedIcon sx={{fontSize : "1.8rem"}}/>,
     },
     {
       title: "hours of support",
-      total: 3457,
+      total: 200,
       icon: <HeadsetMicOutlinedIcon sx={{fontSize : "1.8rem"}}/>,
     },
     {
-      title: "hard workers",
-      total: 126,
+      title: "smart professionals",
+      total: 11,
       icon: <PeopleOutlinedIcon sx={{fontSize : "1.8rem"}}/>,
     },
   ];

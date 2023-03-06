@@ -10,11 +10,11 @@ const Banner = () => {
           xl:w-[90%] mx-auto font-raleway text-center sm:text-left"
         >
           <h1 className="text-3xl sm:text-5xl font-bold sm:leading-[4rem] xl:w-[35rem]">
-            Bettter digital experience with Presento
+            We transform your concepts into digital products
           </h1>
 
           <p className="text-2xl pt-5 sm:pt-0 sm:text-3xl xl:w-[42rem]">
-            We are team of talented designers making websites with Bootstrap
+            We are a group of smart professionals who will help your product reach new heights
           </p>
 
           <div className="text-center sm:text-left lg:text-left mt-10">

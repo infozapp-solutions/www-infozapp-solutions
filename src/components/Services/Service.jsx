@@ -10,32 +10,32 @@ import "./Services.scss";
 const Service = () => {
   const cards = [
     {
-      title: "Lorem Ipsum",
+      title: "Apps development",
       desc: "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
       icon: <EmailOutlinedIcon sx={{ fontSize: "3rem" }} />,
     },
     {
-      title: "Lorem Ipsum",
+      title: "Apps maintenance",
       desc: "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
       icon: <SignalCellularAltOutlinedIcon sx={{ fontSize: "3rem" }} />,
     },
     {
-      title: "Lorem Ipsum",
+      title: "Talent pool management",
       desc: "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
       icon: <WbSunnyOutlinedIcon sx={{ fontSize: "3rem" }} />,
     },
     {
-      title: "Lorem Ipsum",
+      title: "Cloud services",
       desc: "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
       icon: <CreditCardOutlinedIcon sx={{ fontSize: "3rem" }} />,
     },
     {
-      title: "Lorem Ipsum",
+      title: "IT consulting",
       desc: "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
       icon: <CenterFocusStrongIcon sx={{ fontSize: "3rem" }} />,
     },
     {
-      title: "Lorem Ipsum",
+      title: "Training and placement",
       desc: "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
       icon: <CalendarMonthIcon sx={{ fontSize: "3rem" }} />,
     },

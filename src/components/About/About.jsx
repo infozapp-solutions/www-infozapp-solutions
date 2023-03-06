@@ -10,22 +10,22 @@ import Card from "./Card";
 const About = () => {
   const cards = [
     {
-      title: "Corporis voluptates sit",
+      title: "Requirement gathering",
       desc: "Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip",
       icon: <ArticleIcon sx={{ fontSize: "2.5rem" }} />,
     },
     {
-      title: "Labore consequatur",
+      title: "Design the product",
       desc: "Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere",
       icon: <ImageIcon sx={{ fontSize: "2.5rem" }} />,
     },
     {
-      title: "Ullamco laboris nisi",
+      title: "Develop the product",
       desc: "Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip",
       icon: <ViewInArOutlinedIcon sx={{ fontSize: "2.5rem" }} />,
     },
     {
-      title: "Beatae veritatis",
+      title: "Deploy the product",
       desc: "Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip",
       icon: <ShieldOutlinedIcon sx={{ fontSize: "2.5rem" }} />,
     },
@@ -35,12 +35,16 @@ const About = () => {
       <div className="size flex flex-col justify-center lg:flex-row py-[2rem] gap-7">
         <div className="w-30 text-center lg:text-left">
           <h1 className="text-4xl font-bold font-raleway w-full lg:w-[26rem]">
-            Voluptatem dignissimos provident quasi
+            We are a new Indian startup
           </h1>
           <p className="pt-[2rem] w-full lg:w-[27rem]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
-            aute irure dolor in reprehenderit
+            We are a leading provider of innovative software solutions. 
+            We are passionate about assisting our customers in reaching their objectives, 
+            and we strive to provide the best service possible. 
+            Our team of experts is always available to provide advice and support, 
+            and we are constantly developing new and improved products to meet the needs of our customers. 
+            We are committed to making a difference in the world as a company, 
+            and we are proud to be able to provide our products and services to people all over the world
           </p>
 
           <div className="flex items-center justify-center lg:justify-start">

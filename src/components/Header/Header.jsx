@@ -45,7 +45,7 @@ const Header = () => {
 
   return (
     <header
-      className={`sticky top-0 z-30 bg-white ${scroll ? "h-16" : "h-20"} 
+      className={`sticky top-0 z-30 bg-white ${scroll ? "h-20" : "h-24"} 
       shadow-sm shadow-gray-400 flex items-center transition-all duration-500`}
     >
       <nav
@@ -53,9 +53,10 @@ const Header = () => {
         gap-4 lg:justify-center xl:justify-between"
       >
         {/* logo part  */}
-        <h1 className="text-2xl md:text-3xl font-bold tracking-wide">
-          Presento<span className="text-red-400">.</span>
-        </h1>
+        <img className="text-2xl md:text-3xl font-bold tracking-wide" src={"/images/app-logo.png"}>
+
+          {/* Presento<span className="text-red-400">.</span> */}
+        </img>
 
         <ul className="flex items-center gap-7">
           <div
@@ -97,7 +98,7 @@ const Header = () => {
             </div>
           </div>
 
-          <li>
+          {/* <li>
             <a
               className="font-semibold bg-red-600 py-2 px-4 md:py-2.5 md:px-7 text-white 
               rounded-md text-sm hover:bg-black"
@@ -105,7 +106,7 @@ const Header = () => {
             >
               Get Started
             </a>
-          </li>
+          </li> */}
 
           {/* bar icon */}
           <span
