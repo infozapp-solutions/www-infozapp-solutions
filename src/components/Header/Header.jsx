@@ -53,7 +53,7 @@ const Header = () => {
         gap-4 lg:justify-center xl:justify-between"
       >
         {/* logo part  */}
-        <img className="text-2xl md:text-3xl font-bold tracking-wide" src={"/images/app-logo.png"}>
+        <img className="text-2xl md:text-3xl font-bold tracking-wide" src={"/images/app-logo.png"} alt="app logo">
 
           {/* Presento<span className="text-red-400">.</span> */}
         </img>
