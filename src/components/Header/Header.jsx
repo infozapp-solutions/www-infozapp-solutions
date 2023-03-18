@@ -22,18 +22,18 @@ const Header = () => {
       title: "Services",
       path: "#service",
     },
-    {
-      title: "Portfolio",
-      path: "#portfolio",
-    },
-    {
-      title: "Team",
-      path: "#team",
-    },
-    {
-      title: "Blog",
-      path: "#",
-    },
+    // {
+    //   title: "Portfolio",
+    //   path: "#portfolio",
+    // },
+    // {
+    //   title: "Team",
+    //   path: "#team",
+    // },
+    // {
+    //   title: "Blog",
+    //   path: "#",
+    // },
   ];
 
   // scroll animation handle
@@ -86,7 +86,7 @@ const Header = () => {
               ))}
 
               {/* //drop down  */}
-              <DropDown />
+              {/* <DropDown /> */}
 
               <li
                 id="nav"

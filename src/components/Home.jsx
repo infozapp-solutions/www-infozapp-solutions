@@ -20,14 +20,14 @@ const Home = () => {
       <Logo />
       <About />
       <Counts />
-      <Information />
+      {/* <Information /> */}
       <Service />
       {/* <Testimonials /> */}
       {/* <Pricing /> */}
       <Questions />
-      <Team />
+      {/* <Team /> */}
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
       <Copyright />
     </div>
   );

@@ -9,9 +9,8 @@ const Questions = () => {
       <div className="text-center">
         <h1 className="heading">Frequently Asked Questions</h1>
         <p className="py-3 text-base">
-          Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-          aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-          quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+          Based on over three years of experience and questions we receive from our clients, 
+          we wrote down a list of Frequently Asked Questions (FAQ).
         </p>
       </div>
 

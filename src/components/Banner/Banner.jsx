@@ -18,13 +18,13 @@ const Banner = () => {
           </p>
 
           <div className="text-center sm:text-left lg:text-left mt-10">
-            <button
+            {/* <button
               id="bannerBtn"
               className=" bg-red-500 py-2.5 px-8 rounded-md
               transition duration-500"
             >
-              Get Started
-            </button>
+              Contact us
+            </button> */}
           </div>
         </div>
       </div>

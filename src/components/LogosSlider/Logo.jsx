@@ -25,8 +25,9 @@ const Logo = () => {
     </div>
   ));
   return (
-    <div className="size my-14">
-      <Slider {...settings}>{logoSlider}</Slider>
+    <div className="size my-8">
+      {/* <Slider {...settings}>{logoSlider}</Slider> */}
+      <h1 className="heading text-center">WE ARE EXCITED TO SERVE YOU BETTER</h1>
     </div>
   );
 };

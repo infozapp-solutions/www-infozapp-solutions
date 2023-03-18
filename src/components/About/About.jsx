@@ -10,7 +10,7 @@ import Card from "./Card";
 const About = () => {
   const cards = [
     {
-      title: "Requirement gathering",
+      title: "We gather requirement",
       desc: "Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip",
       icon: <ArticleIcon sx={{ fontSize: "2.5rem" }} />,
     },
@@ -25,13 +25,13 @@ const About = () => {
       icon: <ViewInArOutlinedIcon sx={{ fontSize: "2.5rem" }} />,
     },
     {
-      title: "Deploy the product",
+      title: "Deploy it for use",
       desc: "Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip",
       icon: <ShieldOutlinedIcon sx={{ fontSize: "2.5rem" }} />,
     },
   ];
   return (
-    <div id="about" className="clipBg text-white mt-[10rem]">
+    <div id="about" className="clipBg text-white mt-[5rem]">
       <div className="size flex flex-col justify-center lg:flex-row py-[2rem] gap-7">
         <div className="w-30 text-center lg:text-left">
           <h1 className="text-4xl font-bold font-raleway w-full lg:w-[26rem]">
@@ -48,12 +48,12 @@ const About = () => {
           </p>
 
           <div className="flex items-center justify-center lg:justify-start">
-            <button
+            {/* <button
               className="border-2 border-red-500 mt-[2rem] py-2 px-7 rounded-full
             hover:bg-red-500 transition duration-500 text-sm flex items-center font-bold uppercase"
             >
               About Us <KeyboardArrowRightOutlinedIcon />
-            </button>
+            </button> */}
           </div>
         </div>
 

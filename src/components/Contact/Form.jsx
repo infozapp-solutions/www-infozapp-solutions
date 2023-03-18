@@ -34,7 +34,7 @@ const Form = () => {
   };
 
   return (
-    <form onSubmit={onSubmit} className="bg-white box p-4 flex flex-col gap-5">
+    <form onSubmit={onSubmit} className="bg-white box p-6 flex flex-col gap-5">
       <div className="flex flex-col sm:flex-row gap-5">
         <Input
           type="text"

@@ -27,7 +27,7 @@ const Address = ({ icon, title, sub1, sub2 }) => {
 
 const Contact = () => {
   return (
-    <div className="size py-16">
+    <div id="contact" className="size py-16">
       <div className="text-center">
         <h1
           className="text-4xl pb-4 uppercase font-semibold relative after:content-[''] inline-block
