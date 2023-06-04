@@ -7,7 +7,7 @@ const Copyright = () => {
       <div className="size py-5 flex justify-between flex-col sm:flex-row gap-5">
         <div className="text-sm leading-6">
           <p>
-            © Copyright <strong>Infozapp solutions.</strong> All Rights Reserved
+            © Copyright <strong>Foznik info solutions.</strong> All Rights Reserved
           </p>
           {/* <p>
             Designed by <span className="text-red-500">BootstrapMade</span>

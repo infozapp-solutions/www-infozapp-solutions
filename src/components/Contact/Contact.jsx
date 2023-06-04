@@ -35,11 +35,11 @@ const Contact = () => {
         >
           Contact
         </h1>
-        <p className="py-3 text-base">
+        {/* <p className="py-3 text-base">
           Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
           aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
           quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-        </p>
+        </p> */}
       </div>
 
       <div className="h-full flex flex-col lg:flex-row gap-5 mt-5">
@@ -47,21 +47,19 @@ const Contact = () => {
           <Address
             icon={<LocationOnOutlinedIcon sx={{ fontSize: "2rem" }} />}
             title="Our Address"
-            sub1="A108 Adam Street, New York, NY 535022"
+            sub1="121/1, Kumarar Street, Thoothukudi - 628002"
           />
 
           <div className="flex items-center gap-5 mt-5">
             <Address
               icon={<MailOutlineOutlinedIcon sx={{ fontSize: "2rem" }} />}
               title="Email Us"
-              sub1="info@example.com"
-              sub2="contact@example.com"
+              sub1="techsinarif@gmail.com"
             />
             <Address
               icon={<TtyOutlinedIcon sx={{ fontSize: "2rem" }} />}
               title="Call Us"
-              sub1="+1 5589 55488 55"
-              sub2="+1 6678 254445 41"
+              sub1="+91 7401445130"
             />
           </div>
         </div>

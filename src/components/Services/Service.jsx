@@ -5,38 +5,40 @@ import WbSunnyOutlinedIcon from "@mui/icons-material/WbSunnyOutlined";
 import CreditCardOutlinedIcon from "@mui/icons-material/CreditCardOutlined";
 import CenterFocusStrongIcon from "@mui/icons-material/CenterFocusStrong";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
+import MobileFriendlyOutlinedIcon from '@mui/icons-material/MobileFriendlyOutlined';
+import GroupsOutlinedIcon from '@mui/icons-material/GroupsOutlined';
 import "./Services.scss";
 
 const Service = () => {
   const cards = [
     {
-      title: "Apps development",
-      desc: "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
-      icon: <EmailOutlinedIcon sx={{ fontSize: "3rem" }} />,
+      title: "Apps / web development",
+      desc: "We develop Cross-platform apps that can work in different environments thanks to a unique blend of native and web app technologies.",
+      icon: <MobileFriendlyOutlinedIcon sx={{ fontSize: "3rem" }} />,
     },
     {
-      title: "Apps maintenance",
-      desc: "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
-      icon: <SignalCellularAltOutlinedIcon sx={{ fontSize: "3rem" }} />,
+      title: "Apps / web maintenance",
+      desc: "We maintain all previously developed applications as well as customer-requested apps, providing maintenance such as bug fixes, enhancements, and so on.",
+      icon: <MobileFriendlyOutlinedIcon sx={{ fontSize: "3rem" }} />,
     },
     {
       title: "Talent pool management",
-      desc: "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
-      icon: <WbSunnyOutlinedIcon sx={{ fontSize: "3rem" }} />,
+      desc: "Hire a tech talent team for your project as soon as possible. The software industry places a high value on having the right team for the job.",
+      icon: <GroupsOutlinedIcon sx={{ fontSize: "3rem" }} />,
     },
     {
-      title: "Cloud services",
-      desc: "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
+      title: "UI/UX Design",
+      desc: "Want to build your product with a team that establishes a clear design process, meets deadlines, and delivers a spot-on end result? Turn to Foznik info solutions's UI and UX services.",
       icon: <CreditCardOutlinedIcon sx={{ fontSize: "3rem" }} />,
     },
     {
       title: "IT consulting",
-      desc: "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
+      desc: "Use the expertise and deep tech background of the best minds at Foznik info solutions to create a comprehensive IT strategy for a digital and technological transformation of your organization.",
       icon: <CenterFocusStrongIcon sx={{ fontSize: "3rem" }} />,
     },
     {
       title: "Training and placement",
-      desc: "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
+      desc: "For the necessary professionals, we even provide training and placement services.",
       icon: <CalendarMonthIcon sx={{ fontSize: "3rem" }} />,
     },
   ];
@@ -50,11 +52,11 @@ const Service = () => {
           >
             services
           </h1>
-          <p className="py-3 text-base">
+          {/* <p className="py-3 text-base">
             Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
             aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
             quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-          </p>
+          </p> */}
         </div>
 
         <div className="cards my-7">

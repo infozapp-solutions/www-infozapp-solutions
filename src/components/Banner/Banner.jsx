@@ -14,7 +14,7 @@ const Banner = () => {
           </h1>
 
           <p className="text-2xl pt-5 sm:pt-0 sm:text-3xl xl:w-[42rem]">
-            We are a group of smart professionals who will help your product reach new heights
+            We are a team of smart professionals who will help your product reach new heights
           </p>
 
           <div className="text-center sm:text-left lg:text-left mt-10">
