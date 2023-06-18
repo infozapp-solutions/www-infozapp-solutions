@@ -11,22 +11,22 @@ const About = () => {
   const cards = [
     {
       title: "We gather requirement",
-      desc: "Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip",
+      desc: "Since the client's requirements are crucial, we obtain them in detail early on to prevent confusion later on.",
       icon: <ArticleIcon sx={{ fontSize: "2.5rem" }} />,
     },
     {
       title: "Design the product",
-      desc: "Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere",
+      desc: "Based on the specifications we have, our talented design team creates the PSD/Figma design.",
       icon: <ImageIcon sx={{ fontSize: "2.5rem" }} />,
     },
     {
       title: "Develop the product",
-      desc: "Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip",
+      desc: "It's time for the development team to start working on the product for you. seeing as how we have requirements and designs.",
       icon: <ViewInArOutlinedIcon sx={{ fontSize: "2.5rem" }} />,
     },
     {
       title: "Deploy it for use",
-      desc: "Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip",
+      desc: "After the product is created, the client will test it, and then it will be made available for use in a cloud environment.",
       icon: <ShieldOutlinedIcon sx={{ fontSize: "2.5rem" }} />,
     },
   ];
