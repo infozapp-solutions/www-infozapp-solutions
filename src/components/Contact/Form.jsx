@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from '@emailjs/browser';
 
 const Input = ({ type, placeholder, value, onchange }) => {
   return (
@@ -25,12 +26,34 @@ const Form = () => {
   const onSubmit = (e) => {
     e.preventDefault();
     console.log(input);
-    setInput({
-      fullName: "",
-      email: "",
-      subject: "",
-      message: "",
-    });
+    // The keys for templateParams has been taken from https://dashboard.emailjs.com/admin/templates/lu803pq
+    const templateParams = {
+      from_name: input.fullName,
+      from_email: input.email,
+      to_name: 'Foznik Info Solutions',
+      message: input.message,
+      reply_to: input.email
+    }
+    // TODO: Going forward send email must be moved to back end service.
+    emailjs
+      .send('service_2ota45o', 'template_85ia5ao', templateParams, {
+        publicKey: 'iN7G4j2bbnv2OrmVz',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          window.alert('Your message sent successfully');
+          setInput({
+            fullName: "",
+            email: "",
+            subject: "",
+            message: "",
+          });
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
   };
 
   return (

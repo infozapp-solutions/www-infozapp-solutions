@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Deploy to AWS instance.
+Repo is already been cloned, just connect the instance and go to root folder of the app and do git pull.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
